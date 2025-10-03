@@ -1,16 +1,4 @@
 {
   "github": {
     "silent": true
-  },
-  "functions": {
-    "api/**/*.php": {
-      "runtime": "@vercel/php@1.0.0"
-    }
-  },
-  "rewrites": [
-    {
-      "source": "/api/(.*)",
-      "destination": "/api/$1"
-    }
-  ]
-}
+  }
